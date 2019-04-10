@@ -1,5 +1,7 @@
 <html>
     <head>
+        <link rel="shortcut icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" />
+        
         <title>HTML - Guia de Referência</title>
     </head>
     <body>
@@ -8,7 +10,7 @@
         
         <h2>Elementos</h2>
             Um documento HTML é composto por elementos, um elemento é composto por uma tag de inicio e uma de fim, e o conteúdo entre elas.
-            Alguns elementos não possuem tag de fim.
+            Alguns elementos não possuem tag de encerramento.
             <h4>&lthtml&gt... &lt/html&gt</h4>
                 <p>A tag html abre e fecha o código HTML.</p>
             <h4>&lthead&gt... &lt/head&gt</h4>
@@ -20,9 +22,9 @@
             <h4>&ltp&gt... &lt/p&gt</h4>
                 <p>A tag p representa paragráfo, os navegadores automaticamente adicionam um linha vazia antes e uma depois de um paragráfo.</p>
             <h4>&lt/br&gt</h4>
-                <p>Single Line Break, pula para a linha de baixo, não tem tag de fim.</p>
+                <p>Single Line Break, pula para a linha de baixo, não tem tag de encerramento.</p>
             <h4>&lthr /&gt</h4>
-                <p>Horizontal Line, cria uma linha horizontal, não tem tag de fim.</p>
+                <p>Horizontal Line, cria uma linha horizontal, não tem tag de encerramento.</p>
                 <hr />
             <h4>&lt!--... --&gt</h4>
                 <p>Comment, comenta o texto dentro da tag.</p>
@@ -56,9 +58,24 @@
                 <h4>&lth4&gt... &lth4&gt</h4>
                 <h5>&lth5&gt... &lth5&gt</h5>
                 <h6>&lth6&gt... &lth6&gt</h6>
+            <p>&ltimg&gt</p>
+                A tag &ltimg&gt é usada para inserir uma imagem, só tem 1 atributo e não tem tag de encerramento.
+                <p>&ltimg src="endereço_imagem" /&gt</p>
+                <img src="http://logodesignfx.com/wp-content/uploads/2018/09/html-logo-1.jpg" />
         
         <h2>Atributos</h2>
-            
+            Atributos fornecem informações adicionais sobre um elemento ou tag, e também as modifica, a maioria dos atributos tem um valor, o valor modifica o atributo.
+            <h4>align="... "</h4>
+                Alinha o texto conforme indicado.
+                    <p align="center">Este texto está alinhado ao centro (&ltp align="center"&gt... &lt/p&gt).</p>
+                    <p align="left">Este texto está alinhado à esquerda (&ltp align="left"&gt... &lt/p&gt).</p>
+                    <p align="right">Este texto está alinhado à direita (&ltp align="right"&gt... &lt/p&gt).</p>
+            <h4>width="... "</h4>
+                Define a largura do elemento. O valor pode ser definido por pixel ("N<b>px</b>") ou porcentagem ("N<b>%</b>>").<br />
+                    &lthr width="50<b>px</b>" /p&gt
+                    <hr width="50px" />
+                    &lthr width="50<b>%</b>" /p&gt
+                    <hr width="50%" />
 
     </body>
 </html>
