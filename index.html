@@ -1,88 +1,30 @@
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <link rel="shortcut icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" />
-        
-        <title>HTML - Guia de Referência</title>
-    </head>
-    <body>
-        <h2>HTML</h2>
-            <p>HTML significa Hyper Text Marckup Language (Linguagem de Marcação de Hyper Texto), é uma linguagem de marcação que tem como objetivo estruturar web pages.</br> Como uma linguagem de marcação, HTML usa tags para identificar conteúdos.</p>
-        
-        <h2>Elementos</h2>
-            Um documento HTML é composto por elementos, um elemento é composto por uma tag de inicio e uma de fim, e o conteúdo entre elas.
-            Alguns elementos não possuem tag de encerramento.
-            <h4>&lthtml&gt... &lt/html&gt</h4>
-                <p>A tag html abre e fecha o código HTML.</p>
-            <h4>&lthead&gt... &lt/head&gt</h4>
-                <p>A tag head vem logo após a tag html, e indica o cabeçalho da página, onde se encontram todos os elementos não visuais da página que à ajudam a funcionar.</p>
-            <h4>&ltbody&gt... &lt/body&gt</h4>
-                <p>Dentro da tag body ficam todos os elementos visuais e estruturais da página, títulos, paragráfos, listas e imagens são alguns dos elementos que ficam dentro da tag body.</p>
-            <h4>&lttitle&gt... &lt/title&gt</h4>
-                <p>Dentro da tag title (que deve estar localizada dentro da tag head), vai a descrição da página que ficará localizada na aba do navegador. O título também é usado em mecânismos de pesquisa.</p>
-            <h4>&ltp&gt... &lt/p&gt</h4>
-                <p>A tag p representa paragráfo, os navegadores automaticamente adicionam um linha vazia antes e uma depois de um paragráfo.</p>
-            <h4>&lt/br&gt</h4>
-                <p>Single Line Break, pula para a linha de baixo, não tem tag de encerramento.</p>
-            <h4>&lthr /&gt</h4>
-                <p>Horizontal Line, cria uma linha horizontal, não tem tag de encerramento.</p>
-                <hr />
-            <h4>&lt!--... --&gt</h4>
-                <p>Comment, comenta o texto dentro da tag.</p>
-                <!--Texto comentado não aparece na página.-->
-        
-        <h2>Elementos de Formatação</h2>
-            <p><b>&ltb&gt... &lt/b&gt</b></p>
-                <b>Formata o texto dentro da tag para negrito.</b>
-            <p><big>&ltbig&gt... &lt/big&gt</big></p>
-                <big>Aumenta a fonte do texto dentro da tag.</big>
-            <p><i>&lti&gt... &lt/i&gt</i></p>
-                <i>Formata o texto dentro da tag para itálico.</i>
-            <p><small>&ltsmall&gt... &lt/small&gt</small></p>
-                <small>Diminui a fonte do texto dentro da tag.</small>
-            <p><strong>&ltstrong&gt...&lt/strong&gt</strong><p>
-                <strong>Formata o texto dentro da tag para negrito e marca o mesmo como importante.</strong>
-            <p><sub>&ltsub&gt... &lt/sub&gt</sub></p>
-                <sub>Formata o texto dentro da tag para subscrito.</sub>
-            <p><sup>&ltsup&gt... &lt/sup&gt</sup><p>
-                <sup>Formata o texto dentro da tag para sobrescrito.</sup>
-            <p><ins>&ltins&gt... &lt/ins&gt</ins><p>
-                <ins>Formata o texto dentro da tag para sublinhado.</ins>
-            <p><del>&ltdel&gt...&lt/del&gt</del><p>
-                <del>Formata o texto dentro da tag para riscado.</del>
-            <p>Heading (&lthn&gt... &lt/hn&gt)</p>
-                Transforma o texto em um título, o título não muda somente a formatação, um título é usado por mecanismos de pesquisa para estruturar páginas.
-                Existem seis níveis de título:
-                <h1>&lth1&gt... &lth1&gt</h1>
-                <h2>&lth2&gt... &lth2&gt</h2>
-                <h3>&lth3&gt... &lth3&gt</h3>
-                <h4>&lth4&gt... &lth4&gt</h4>
-                <h5>&lth5&gt... &lth5&gt</h5>
-                <h6>&lth6&gt... &lth6&gt</h6>
-            <p>&ltimg&gt</p>
-                A tag &ltimg&gt é usada para inserir uma imagem, só tem 1 atributo e não tem tag de encerramento.
-                O atributo src indica o endereço da imagem, pode ser um link ou um endereço local.
-                <p>&ltimg src="endereço_imagem" /&gt</p>
-                <img src="https://rmmourao.github.io/html-logo-1" />
-        
-        <h2>Atributos</h2>
-            Atributos fornecem informações adicionais sobre um elemento ou tag, e também as modifica, a maioria dos atributos tem um valor, o valor modifica o atributo.
-            <h4>align="... "</h4>
-                Alinha o texto conforme indicado.
-                    <p align="center">Este texto está alinhado ao centro (&ltp align="center"&gt... &lt/p&gt).</p>
-                    <p align="left">Este texto está alinhado à esquerda (&ltp align="left"&gt... &lt/p&gt).</p>
-                    <p align="right">Este texto está alinhado à direita (&ltp align="right"&gt... &lt/p&gt).</p>
-            <h4>width="... "</h4>
-                Define a largura do elemento. O valor pode ser definido por pixel ("N<b>px</b>") ou porcentagem ("N<b>%</b>>").<br />
-                    &lthr width="50<b>px</b>" /&gt
-                    <hr width="50px" />
-                    &lthr width="50<b>%</b>" /&gt
-                    <hr width="50%" />
-            <h4>height="... "</h4>
-                Define a altura do elemento. O valor pode ser definido por pixel ("N<b>px</b>") ou porcentagem ("N<b>%</b>>").<br />
-                    &lthr height="50<b>px</b>" /&gt
-                    <p height="150px">Texto</p>
-                    &lthr width="50<b>%</b>" /&gt
-                    <hr height="50%" />
+	<head>
+		<meta charset="utf-8">
+		<title>FRONT END - CHEAT SHEET</title>
+	</head>
+	<body bgcolor="#D5D8DC">
+		<header>
+			<h1 align="Center">Front End - Cheat Sheet</h1>
+			<h3 align="Center">Annotations and references</h3>
+		</header>
+		
+		<nav>
+			<div align="Center" style="background-color: #3498DB">
+				<a href="htmlcs.html">HTML 5</a><br>
+				<a href=""><del>CSS 3</del></a><br>
+				<a href=""><del>JAVASCRIPT</del></a><br>
+				<a href=""><del>VUE.JS</del></a>
+			</div>
+		</nav>
 
-    </body>
+		<footer>
+			<div align="Left" style="background-color: #3498DB">
+				<!--RODAPÉ
+				Informações de contato (e-mail, linkedin)
+				Sitemap-->
+			</div>			
+		</footer>
+	</body>
 </html>
